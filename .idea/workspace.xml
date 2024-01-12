@@ -4,15 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc528850-6b61-43bb-bfea-5b0952c603bb" name="Changes" comment="" />
+    <list default="true" id="cc528850-6b61-43bb-bfea-5b0952c603bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/controller/EcommerceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/model/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/repository/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/data/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/request/DepositMoneyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/request/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/request/ReviewRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/EntryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/ReviewResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/WalletBalanceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/dtos/response/WalletResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/InsufficientFunds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/InvalidAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/LoginError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/OrderIdNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/UserNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/UsernameUnavailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/WrongDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/exceptions/WrongUserId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/EcommerceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/EcommerceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/services/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eCommerce/data/repository/CartRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eCommerce/data/repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eCommerce/data/repository/ReviewRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eCommerce/data/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/eCommerce/services/EcommerceServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eCommerce/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2aoQf6EdB0nZsShTpXFXLezIZba" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,10 +93,134 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Dell/Downloads/Ecommerce/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.eCommerce.data.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.eCommerce.services" />
+      <recent name="org.eCommerce.data.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EcommerceServiceTest.testThatExceptionIsThrownWhenUserRegistersWithAnAlreadyRegisteredName">
+    <configuration name="CartRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eCommerce.data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eCommerce.data.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.eCommerce.data.repository.CartRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceServiceTest.testThatAUserCanRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eCommerce.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eCommerce.services" />
+      <option name="MAIN_CLASS_NAME" value="org.eCommerce.services.EcommerceServiceTest" />
+      <option name="METHOD_NAME" value="testThatAUserCanRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceServiceTest.testThatExceptionIsThrownWhenUserRegistersWithAnAlreadyRegisteredName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eCommerce.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eCommerce.services" />
+      <option name="MAIN_CLASS_NAME" value="org.eCommerce.services.EcommerceServiceTest" />
+      <option name="METHOD_NAME" value="testThatExceptionIsThrownWhenUserRegistersWithAnAlreadyRegisteredName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeedbackRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eCommerce.data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eCommerce.data.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.eCommerce.data.repository.FeedbackRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eCommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.eCommerce.data.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.eCommerce.data.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.eCommerce.data.repository.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Ecommerce" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EcommerceServiceTest.testThatExceptionIsThrownWhenUserRegistersWithAnAlreadyRegisteredName" />
+        <item itemvalue="JUnit.EcommerceServiceTest.testThatAUserCanRegister" />
+        <item itemvalue="JUnit.CartRepositoryTest" />
+        <item itemvalue="JUnit.FeedbackRepositoryTest" />
+        <item itemvalue="JUnit.UserRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,19 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704982555667</updated>
-      <workItem from="1704982556667" duration="9000" />
+      <workItem from="1704982556667" duration="3145000" />
+      <workItem from="1705068555292" duration="10907000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
